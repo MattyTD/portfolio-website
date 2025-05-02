@@ -1,3 +1,9 @@
+/**
+ * ESLint configuration file
+ *
+ * Defines linting rules for JavaScript and TypeScript files
+ * Source: https://eslint.org/docs/latest/use/configure/
+ */
 module.exports = {
   root: true,
   env: {
@@ -30,4 +36,4 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
   },
-}; 
+};

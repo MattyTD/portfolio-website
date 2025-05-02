@@ -1,8 +1,17 @@
+/**
+ * Main CSS file with Tailwind CSS integration
+ * 
+ * Includes Tailwind directives and global styles
+ * Source: https://tailwindcss.com/docs/installation
+ */
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
 :root {
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
